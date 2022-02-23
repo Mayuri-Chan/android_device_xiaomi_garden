@@ -139,7 +139,7 @@ void vendor_load_properties()
 
     std::string region = GetProperty("ro.boot.hwc", "");
     std::string hwname = GetProperty("ro.boot.hwname", "");
-    std::string product_name = GetProperty("ro.product.name", "")
+    std::string product_name = GetProperty("ro.product.name", "");
 
     if (hwname == "angelica" || hwname == "angelica_second") {
         property_override("ro.product.brand", "Redmi");
